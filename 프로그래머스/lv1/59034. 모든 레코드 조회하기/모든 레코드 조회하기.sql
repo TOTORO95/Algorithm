@@ -1,2 +1,2 @@
 -- 코드를 입력하세요
-select * from ANIMAL_INS order by ANIMAL_ID
+SELECT * FROM ANIMAL_INS ORDER BY ANIMAL_ID

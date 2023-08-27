@@ -1,2 +1,5 @@
-/Mac_Build
-/Win_Build
+Study/Mac_Build
+
+Study/Win_Build
+
+Study/*.exe

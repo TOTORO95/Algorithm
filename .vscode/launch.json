@@ -30,15 +30,16 @@
             "name": "C/C++: g++.exe build and debug active file (Mac)",
             "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/Mac_Build/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/Study/Mac_Build/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang++ Active Build(Mac)"
+            "preLaunchTask": "C/C++: g++ Active Build(Mac)"
         }
+        
     ],
     "version": "2.0.0"
 }

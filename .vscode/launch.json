@@ -37,7 +37,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "C/C++: g++ Active Build(Mac)"
+            "preLaunchTask": "C/C++: Clang++ Active Build(Mac)"
         }
     ],
     "version": "2.0.0"

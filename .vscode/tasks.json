@@ -22,7 +22,7 @@
         },
         {
             "type": "shell",
-            "label": "C/C++: g++ Active Build(Mac)",
+            "label": "C/C++: Clang++ Active Build(Mac)",
             "command": "/usr/bin/clang++",
             "args": [
                 "-g",

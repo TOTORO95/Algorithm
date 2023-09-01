@@ -2,8 +2,11 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "ios": "cpp"
-    },    
-    "code-runner.runInTerminal": true
+        "ios": "cpp",
+        "string": "cpp"
+    },
+    "code-runner.runInTerminal": true,
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "{ IndentWidth: 4, ColumnLimit: 80 }",
+    "C_Cpp.clang_format_fallbackStyle": "Google"
 }
-

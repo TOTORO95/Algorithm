@@ -6,16 +6,12 @@ int main() {
     cin.tie(0);
     cout.tie(0);
 
-    int a =3 ;
+    string str;
 
-    cout<< a << "\n";
-
-    cin >> a ;
-
-    for(int i=0; i<10; i++ ) {
-        ++a;
-        cout << a<<"\n";
+    cin >> str;
+    int a = 0;
+    for (int i = 0; i < 10; i++) {
+        a = atoi(str.c_str()) + i;
+        cout << a << "\n";
     }
-
-
 }

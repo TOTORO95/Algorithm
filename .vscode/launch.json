@@ -27,7 +27,7 @@
             "preLaunchTask": "C/C++: g++.exe build active file(Windows)"
         },
         {
-            "name": "C/C++: g++.exe build and debug active file (Mac)",
+            "name": "C/C++: Clang++.exe build and debug active file (Mac)",
             "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/Study/Mac_Build/${fileBasenameNoExtension}",

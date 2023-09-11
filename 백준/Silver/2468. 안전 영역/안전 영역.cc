@@ -4,7 +4,7 @@ using namespace std;
 
 int n; // 2 < n < 100
 const int maxSize = 101;
-int answer = 1, maxVal = 0;
+int answer = 0, maxVal = 0;
 array<array<int, maxSize>, maxSize> heightMat;
 array<array<int, maxSize>, maxSize> tempMat;
 array<int, 4> dirY = {0, 1, 0, -1};
@@ -36,7 +36,7 @@ int main() {
         }
     }
 
-    for (int height = 1; height < maxSize; height++) {
+    for (int height = 0; height < maxSize; height++) {
         copy(heightMat.begin(), heightMat.end(), tempMat.begin());
         maxVal = 0;
         for (int i = 0; i < n; i++) {

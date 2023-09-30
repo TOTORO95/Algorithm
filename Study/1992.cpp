@@ -30,31 +30,6 @@ string quad(int cY, int cX, int size) {
     return string(1, curCh);
 }
 
-string quard(int cY, int cX, int size) {
-    char curCh = fieldMap[cY][cX];
-    if (size == 1) {
-        return string(1, curCh);
-    }
-
-    string ret = "";
-    int divSize = size * 0.5;
-
-    for (int i = cY; i < cY + size; i++) {
-        for (int j = cX; j < cX + size; j++) {
-            if (curCh != fieldMap[i][j]) {
-                ret += '(';
-                ret += quard(cY, cX, divSize);
-                ret += quard(cY, cX + divSize, divSize);
-                ret += quard(cY + divSize, cX, divSize);
-                ret += quard(cY + divSize, cX + divSize, divSize);
-                ret += ')';
-                return ret;
-            }
-        }
-    }
-    return string(1, curCh);
-}
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -69,7 +44,6 @@ int main() {
         }
     }
 
-    // cout << quard(0, 0, n) << "\n";
     cout << quad(0, 0, n) << "\n";
 
     return 0;

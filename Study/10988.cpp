@@ -11,10 +11,8 @@ int main() {
 
     if (reverStr == str) {
         cout << 1 << endl;
-    } 
-    else {
+    } else {
         cout << 0 << endl;
     }
-
     return 0;
 }

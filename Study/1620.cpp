@@ -15,6 +15,7 @@ int main() {
     cin >> pokemonNum >> problemNum;
     for (int i = 0; i < pokemonNum; i++) {
         cin >> name;
+        // nameMap[name] = i+1; <- 기본생성자로 데이터 초기화 후 이후 값 삽입
         nameMap.insert({name, i + 1});
         nameVec[i + 1] = name;
     }

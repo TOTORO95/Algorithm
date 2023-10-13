@@ -1,10 +1,10 @@
 {
     "configurations": [
         {
-            "name": "C/C++: g++.exe build and debug active file",
+            "name": "C/C++: g++.exe build and debug active file (Windows)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\Build\\${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}\\Win_Build\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "C:/mingw64/bin",
@@ -24,7 +24,20 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+            "preLaunchTask": "C/C++: g++.exe build active file(Windows)"
+        },
+        {
+            "name": "C/C++: Clang++.exe build and debug active file (Mac)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Study/Mac_Build/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: Clang++ Active Build(Mac)"
         }
     ],
     "version": "2.0.0"

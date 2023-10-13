@@ -10,7 +10,7 @@ int main() {
         cin >> temp;
         psum[i] = psum[i - 1] + temp;
     }
-    
+
     for (int i = k; i <= n; i++) {
         ret = max(ret, psum[i] - psum[i - k]);
     }

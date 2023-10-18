@@ -4,7 +4,7 @@ using namespace std;
 
 const int maxSize = 54;
 array<array<char, maxSize>, maxSize> fieldMap;
-int visitMap[55][55]={0,};
+array<array<int, maxSize>, maxSize> visitMap;
 int n = 0, m = 0;
 
 int dirY[4] = {1, 0, -1, 0};
@@ -13,6 +13,7 @@ int maxDist = 0;
 
 void bfs(int y, int x) {
     memset(&visitMap, 0, sizeof(visitMap));
+
     visitMap[y][x] = 1;
     queue<pair<int, int>> q;
     q.push({y, x});

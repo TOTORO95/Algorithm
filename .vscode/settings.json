@@ -23,10 +23,12 @@
         "stack": "cpp",
         "string_view": "cpp",
         "unordered_set": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "variant": "cpp",
+        "__locale": "cpp"
     },
     "code-runner.runInTerminal": true,
     "editor.formatOnSave": true,
-    "C_Cpp.clang_format_style": "{ IndentWidth: 4 }",
-    "C_Cpp.clang_format_fallbackStyle": "Google"
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, ColumnLimit: 0, IndentWidth: 4 }",
+    "C_Cpp.clang_format_style": ""
 }
